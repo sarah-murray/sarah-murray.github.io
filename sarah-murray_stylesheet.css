@@ -1,0 +1,27 @@
+NAV {
+	width: 20%;
+	height: 100%;
+	border: 1px;
+	margin-top: 10px;
+	margin-left: 1px;
+	margin-bottom: 10px;
+	float: left;
+	padding: 5px;
+}
+TEXT {
+	width: 75%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	padding: 5px;
+}
+A:LINK {
+	text-decoration: none;
+}
+A:HOVER {
+	color: #9542f4;
+	text-decoration: none;
+}
