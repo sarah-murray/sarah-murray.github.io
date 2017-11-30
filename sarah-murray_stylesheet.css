@@ -18,6 +18,9 @@ TEXT {
 	float: right;
 	padding: 5px;
 }
+TAB {
+	margin-left: 40px;
+}
 A:LINK {
 	text-decoration: none;
 }
