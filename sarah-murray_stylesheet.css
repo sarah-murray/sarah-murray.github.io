@@ -1,5 +1,6 @@
 NAV {
 	width: 20%;
+	height: 100%;
 	border: 1px;
 	margin-top: 10px;
 	margin-left: 1px;
@@ -9,6 +10,7 @@ NAV {
 }
 TEXT {
 	width: 75%;
+	height: 100%;
 	border: 1px;
 	margin-top: 10px;
 	margin-bottom: 10px;
