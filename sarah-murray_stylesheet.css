@@ -22,7 +22,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-
+/*
 NAV {
 	width: 20%;
 	height: 100%;
@@ -38,6 +38,10 @@ TEXT {
 	margin-top: 30px;
 	float: right;
 	padding: 5px;
+}
+*/
+td {
+	background-color:#F0FFFF;
 }
 
 A:LINK {
