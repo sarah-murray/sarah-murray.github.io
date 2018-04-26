@@ -23,10 +23,24 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+table {
+	border-spacing: 10px;
+}
+.photo {
+	float:right;
+	width:300px;
+	height:auto;
+	border:0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
 
 .text {
 	background-color:#F0FFFF;
 	color:#461B7E;
+	padding: 10px;
+	margin-bottom: 10px;
+	
 }
 
 A:LINK {
