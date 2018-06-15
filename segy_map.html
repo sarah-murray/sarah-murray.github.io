@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!MIT License
+
+Copyright (c) 2018 sarah-murray
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.>
+<head>
+	<title>Sarah Murray</title>
+	
+	<link rel="stylesheet" type="text/css" href="smurray.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body style="background-color: #d9d9d9">
+
+	<div id = 'header'>
+		<h1>Sarah Murray</h1>
+		Structural geologist with advanced GIS skills
+	</div>
+	
+	<br>
+	
+	<ul class="menu">
+	  <li><a href="./">Home</a></li>
+	  <li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">Projects</a>
+		<div class="dropdown-content">
+			<a href="ABM.html">Agent based model</a>
+			<a href="model3d.html">Interactive 3D model</a>
+			<a href="segy_map.html">SEGY mapping</a>
+		</div>
+	  </li>
+	</ul>
+	
+	<div id="main">
+		<a href= "https://github.com/sarah-murray/SEGY-mapper" target = "blank">
+			<h3>Read and map SEGY files
+				<img id="github" src="images/github_logo.png" alt="Link to GitHub repository"></h3>
+		</a>
+		<p>Scan for SEG-Y data. Read files and map in a user-defined coordinate system.</p>
+		<p>Scan specified folder for files with a .sgy or .segy extension. Identify if spatial data 
+		is available for CDP, source, or receiver/group and if the data is for a 2D or 3D survey. 
+		Read coordinates and convert to a set coordinate system. Plot new coordinates to a map as 
+		lines (2D) and polygons (3D) in a .png image. Provide text file to relate map to files within 
+		the directory, and provide information about the survey geometry.</p>
+		<p>Requires Segpy and Pyproj libraries. Survey name, folder and EPSG values currently have to 
+		be specified in the script.</p>
+		<p>Work is ongoing to increase usability and efficiency.</p>
+		
+		<img src="images/2D_segy.png" alt="Example 2D output" style="height: 350px">
+		<img src="images/3D_segy.png" alt="Example 3D output" style="height: 350px">
+	<div>
+	<br>
+	<div id="footer">
+		<a href="https://github.com/sarah-murray" target="blank">
+			<img class= "profileLogo" src="images/github_logo2.png" alt="Github">
+		</a>
+		<a href="https://www.linkedin.com/in/sarah-murray-60b47686/" target="blank">
+			<img class= "profileLogo" src="images/linkedin_logo.png" alt="LinkedIn">
+		</a>
+		<p>Website design and maintenance by Sarah Murray. Page updated June 2018.</p>
+	</div>
+
+</body>
+</html>
